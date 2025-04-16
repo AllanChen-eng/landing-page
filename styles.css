@@ -1,0 +1,160 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+
+}
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+}
+
+.header-title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 32px;
+}
+
+.sign-up-button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.square{
+    height: 125px;
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container{
+    display: flex;
+    text-align: center;
+
+}
+
+.info-box{
+    max-width: 200px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.quote{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.advertisement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advertisement-container{
+    display: flex;
+    flex:1;
+    background-color: #3882F6;
+    margin: 32px;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertisement-content{
+    display:flex;
+    flex-direction: column;
+}
+
+.advertisement-title{
+    color: white;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+.advertisement-text{
+    color: white;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+.advertisement-signup-button{
+    flex: 0 0 1;
+    background: #3882F6;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.footer-text{
+    color:white
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

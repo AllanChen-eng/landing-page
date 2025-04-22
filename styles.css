@@ -23,6 +23,10 @@ body{
     font-size: 24px;
     font-weight: 900;
 }
+.links{
+    display: flex;
+    gap: 16px;
+}
 
 .header-content{
     display: flex;
@@ -122,7 +126,7 @@ img{
     font-weight: 900;
     display: flex;
     justify-content: end;
-    width: 544px;
+    width: 500px;
 }
 .advertisement{
     display: flex;
@@ -132,17 +136,20 @@ img{
 
 .advertisement-container{
     display: flex;
-    flex:1;
     background-color: #3882F6;
     margin: 32px;
     padding: 16px 48px;
     justify-content: center;
     align-items: center;
+    width: 600px;
 }
 
 .advertisement-content{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0 25px;
+    width: 544px;
 }
 
 .advertisement-title{
@@ -163,8 +170,10 @@ img{
     border: 1px solid white;
     color: white;
     cursor: pointer;
-    padding: 8px 16px;
+    padding: 8px 8px;
+    width: 150px;
     border-radius: 8px;
+    margin-right: 45px;
 
 }
 
